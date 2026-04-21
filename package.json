@@ -25,7 +25,13 @@
 		"url": "https://github.com/react-native-oh-library/react-native-vibration-feedback/issues"
 	},
 	"harmony": {
-		"alias": "react-native-vibration-feedback"
+		"alias": "react-native-vibration-feedback",
+        "autolinking": {
+          "etsPackageClassName":"RNVibrationFeedbackPackage",
+          "cppPackageClassName":"ReactNativeVibrationFeedbackPackage",
+          "cmakeLibraryTargetName": "rnoh_vibration_feedback",
+          "ohPackageName": "@react-native-ohos/react-native-vibration-feedback"
+        }
 	},
 	"homepage": "https://github.com/react-native-oh-library/react-native-vibration-feedback",
   "peerDependencies": {
