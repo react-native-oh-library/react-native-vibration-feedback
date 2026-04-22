@@ -16,6 +16,25 @@
         </policylist>
         <filefilterlist>
             <filefilter name="copyrightPolicyFilter" desc="Filters for compatibility，license header policies">
+                <filteritem type="filepath" name="harmony/vibration_feedback/BuildProfile.ets" desc="hvigor构建脚本，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filepath" name="harmony/vibration_feedback/hvigorfile.ts" desc="hvigor构建脚本，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filepath" name="harmony/vibration_feedback/src/main/cpp/generated/.*" desc="codegen自动生成，不手动修改"/>
+                <filteritem type="filepath" name="harmony/vibration_feedback/src/main/ets/generated/.*" desc="codegen自动生成，不手动修改"/>
+                <filteritem type="filepath" name="harmony/vibration_feedback/src/main/ets/generated/components/.*" desc="codegen自动生成，不手动修改"/>
+                <filteritem type="filepath" name="harmony/vibration_feedback/src/main/ets/generated/turboMoudules/.*" desc="codegen自动生成，不手动修改"/>
+                <filteritem type="filename" name="*.json5" desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="*/*.json5" desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="LICENSE" desc="版权文件，不添加许可证头"/>
+                <filteritem type="filepath" name="src/*.ts" desc="第三方开源软件源码，不添加许可证头"/>
+                <filteritem type="filepath" name="src/NativeVibrationFeedback.ts" desc="第三方开源软件源码，不添加许可证头"/>
+                <filteritem type="filepath" name="index.*" desc="第三方开源软件源码，不添加许可证头"/>
+                <filteritem type="filename" name=".eslintrc.js" desc="第三方开源软件源码，不添加许可证头"/>
+                <filteritem type="filename" name=".prettierrc.js" desc="第三方开源软件源码，不添加许可证头"/>
+                <filteritem type="filename" name="babel.config.js" desc="第三方开源软件源码，不添加许可证头"/>
+                <filteritem type="filename" name="README.OpenSoure" desc="使用文档，不添加许可证头"/>
+            </filefilter>
+            <filefilter name="defaultPolicyFilter" desc="Filters for compatibility，license header policies">
+                <filteritem type="filepath" name="harmony/vibration_feedback/BuildProfile.ets" desc="hvigor构建脚本，DevEco Studio自动生成，不手动修改"/>
                 <filteritem type="filepath" name="harmony/vibration_feedback/hvigorfile.ts" desc="hvigor构建脚本，DevEco Studio自动生成，不手动修改"/>
                 <filteritem type="filepath" name="harmony/vibration_feedback/src/main/cpp/generated/.*" desc="codegen自动生成，不手动修改"/>
                 <filteritem type="filepath" name="harmony/vibration_feedback/src/main/ets/generated/.*" desc="codegen自动生成，不手动修改"/>
@@ -25,10 +44,12 @@
                 <filteritem type="filename" name="*/*.json5" desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"/>
                 <filteritem type="filename" name="LICENSE" desc="版权文件，不添加版权头"/>
                 <filteritem type="filepath" name="src/*.ts" desc="第三方开源软件源码，不修改版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name="src/NativeVibrationFeedback.ts" desc="第三方开源软件源码，不修改版权头，以防有修改版权风险"/>
                 <filteritem type="filepath" name="index.*" desc="第三方开源软件源码，不修改版权头，以防有修改版权风险"/>
                 <filteritem type="filename" name=".eslintrc.js" desc="第三方开源软件源码，不修改版权头，以防有修改版权风险"/>
                 <filteritem type="filename" name=".prettierrc.js" desc="第三方开源软件源码，不修改版权头，以防有修改版权风险"/>
                 <filteritem type="filename" name="babel.config.js" desc="第三方开源软件源码，不修改版权头，以防有修改版权风险"/>
+                <filteritem type="filename" name="README.OpenSoure" desc="使用文档，不添加版权头"/>
             </filefilter>
 
             <filefilter name="binaryFileTypePolicyFilter" desc="Filters for copyright header policies">
