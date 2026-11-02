@@ -2,11 +2,11 @@
 {
   "name": "@react-native-ohos/react-native-vibration-feedback",
   "version": "1.2.0-beta.1",
-  "description": "",
+  "description": "vibration feedback for React Native applications.",
   "main": "index.js",
   "repository": {
 		"type": "git",
-		"url": "https://github.com/react-native-oh-library/react-native-vibration_feedback.git"
+		"url": "https://atomgit.com/CPF-RN/rntpc_react-native-vibration-feedback.git"
 	},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,12 +17,27 @@
     "access": "public"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "harmony",
+    "vibration",
+    "feedback"
   ],
-  "author": "",
-  "license": "",
+  "files": [
+    "src",
+    "lib",
+    "index.js",
+    "index.d.ts",
+    "CHANGELOG.md",			
+    "harmony",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__",
+    "!**/.*"
+  ],
+  "author": "nascimentorafael<rafaell.nascimentoo@gmail.com>",
+  "license": "Apache-2.0 license",
   "bugs": {
-		"url": "https://github.com/react-native-oh-library/react-native-vibration-feedback/issues"
+		"url": "https://atomgit.com/CPF-RN/rntpc_react-native-vibration-feedback/issues"
 	},
 	"harmony": {
 		"alias": "react-native-vibration-feedback",
@@ -33,7 +48,7 @@
           "ohPackageName": "@react-native-ohos/react-native-vibration-feedback"
         }
 	},
-	"homepage": "https://github.com/react-native-oh-library/react-native-vibration-feedback",
+	"homepage": "https://atomgit.com/CPF-RN/rntpc_react-native-vibration-feedback",
   "peerDependencies": {
     "react-native": "^0.41.2"
   },
