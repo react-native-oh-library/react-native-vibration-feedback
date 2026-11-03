@@ -1,0 +1,15 @@
+node_modules/
+*.log
+.npm/
+
+# Jest
+coverage/
+harmony/build/
+harmony/entry/build/
+harmony/entry/oh_modules/
+.bundle/
+build/
+ios/build/
+android/build/
+*.hbc
+bundle.harmony.js
