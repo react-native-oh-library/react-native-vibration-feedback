@@ -1,0 +1,15 @@
+{
+  "modelVersion": "5.0.0",
+  "license": "ISC",
+  "name": "rnoh",
+  "description": "example description",
+  "version": "1.0.0",
+  "dependencies": {
+    "@rnoh/react-native-openharmony": "0.82.31",
+    "@react-native-ohos/react-native-vibration-feedback": "file:../node_modules/@react-native-ohos/react-native-vibration-feedback/harmony/vibration_feedback.har",
+  },
+  "overrides": {
+    "@rnoh/react-native-openharmony": "0.82.31",
+  },
+}
+
